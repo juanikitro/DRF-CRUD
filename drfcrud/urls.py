@@ -5,4 +5,6 @@ from django.urls.conf import include
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("projects.urls")),
+    path("", include("rest_framework.urls")),
+    path("", include("rest_registration.api.urls")),
 ]
