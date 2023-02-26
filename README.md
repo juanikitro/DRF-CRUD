@@ -23,6 +23,12 @@
 }
 ```
 
+## /logout/
+
+### GET
+
+HTTP 200 OK
+
 ## /api/projects/
 
 ### GET
